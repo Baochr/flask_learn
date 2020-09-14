@@ -5,10 +5,12 @@ from flask_bootstrap import Bootstrap
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
+from flask_moment import Moment
 from datetime import datetime
 
 app = Flask(__name__)
 bootstrap = Bootstrap(app)
+moment = Moment(app)
 
 
 @app.route('/')
