@@ -1,7 +1,6 @@
 # -*- coding:utf-8 -*-
 
 from flask import Flask, render_template, session, redirect, url_for, flash
-from flask_sqlalchemy import SQLAlchemy
 from flask_bootstrap import Bootstrap
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
